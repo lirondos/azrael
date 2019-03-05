@@ -291,3 +291,5 @@ recuperar_descartesLatín([],[]).
 recuperar_descartesLatín([N|M],[Restos|MasRestos]):-
                atom_codes(Restos,N),
                recuperar_descartesLatín(M,MasRestos).
+               
+               
